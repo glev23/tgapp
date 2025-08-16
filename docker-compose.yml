@@ -1,0 +1,36 @@
+version: "3.9"
+services:
+  web:
+    build: ./apps/web
+    container_name: tgapp-web
+    ports:
+      - "80:80"
+    depends_on:
+      - api
+    environment:
+      - VITE_API_URL=${API_URL:-http://tg.raddison_two.novaml.ru/api}
+      - NODE_ENV=production
+    restart: unless-stopped
+    networks:
+      - tgapp-network
+    volumes:
+      # Для SSL сертификатов (раскомментировать после настройки)
+      # - ./ssl:/etc/nginx/ssl:ro
+      - ./logs/nginx:/var/log/nginx
+      
+  api:
+    build: ./apps/api
+    container_name: tgapp-api
+    ports:
+      - "8000:8000"
+    environment:
+      - UVICORN_HOST=0.0.0.0
+      - UVICORN_PORT=8000
+      - CORS_ORIGINS=https://tg.raddison_two.novaml.ru,http://tg.raddison_two.novaml.ru
+    restart: unless-stopped
+    networks:
+      - tgapp-network
+
+networks:
+  tgapp-network:
+    driver: bridge 

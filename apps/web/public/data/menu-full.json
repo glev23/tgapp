@@ -1,0 +1,6186 @@
+{
+  "source": "menu_two.txt",
+  "categories": [
+    {
+      "id": "завтрак-а-ля-карт",
+      "name": "ЗАВТРАК А ЛЯ КАРТ",
+      "items": [],
+      "subcategories": []
+    },
+    {
+      "id": "каши,-хлопья-и-йогурты",
+      "name": "КАШИ, ХЛОПЬЯ И ЙОГУРТЫ",
+      "items": [
+        {
+          "id": "-",
+          "name": "Натуральный или фруктовый йогурт",
+          "portion": null,
+          "description": null,
+          "price": 350,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": true,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": true
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": true,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": true
+          },
+          "categoryId": "breakfast"
+        },
+        {
+          "id": "-",
+          "name": "Йогурт с гранолой и бананом",
+          "portion": null,
+          "description": null,
+          "price": 790,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": true
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": true
+          },
+          "categoryId": "breakfast"
+        },
+        {
+          "id": "-",
+          "name": "Хлопья или мюсли в ассортименте",
+          "portion": null,
+          "description": null,
+          "price": 550,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "breakfast"
+        },
+        {
+          "id": "-",
+          "name": "Каша, приготовленная на воде или молоке:",
+          "portion": null,
+          "description": null,
+          "price": 660,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": true,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": true,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "breakfast"
+        }
+      ],
+      "subcategories": []
+    },
+    {
+      "id": "холодные-закуски",
+      "name": "ХОЛОДНЫЕ ЗАКУСКИ",
+      "items": [
+        {
+          "id": "-",
+          "name": "Сырное ассорти к завтраку",
+          "portion": null,
+          "description": null,
+          "price": 660,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": true
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": true
+          },
+          "categoryId": "cold-appetizers"
+        },
+        {
+          "id": "-",
+          "name": "Лосось шеф-посола",
+          "portion": null,
+          "description": null,
+          "price": 1300,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "cold-appetizers"
+        },
+        {
+          "id": "-",
+          "name": "Мясное ассорти",
+          "portion": null,
+          "description": null,
+          "price": 870,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "cold-appetizers"
+        }
+      ],
+      "subcategories": []
+    },
+    {
+      "id": "десерты-и-свежая-выпечка",
+      "name": "ДЕСЕРТЫ И СВЕЖАЯ ВЫПЕЧКА",
+      "items": [
+        {
+          "id": "",
+          "name": "Клубника",
+          "portion": "27 ккал/100 гр.",
+          "description": null,
+          "price": 870,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "desserts"
+        },
+        {
+          "id": "",
+          "name": "Малина",
+          "portion": "39 ккал/100 гр.",
+          "description": null,
+          "price": 1900,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "desserts"
+        },
+        {
+          "id": "",
+          "name": "Голубика",
+          "portion": "57 ккал/100 гр.",
+          "description": null,
+          "price": 1700,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "desserts"
+        },
+        {
+          "id": "",
+          "name": "Ежевика",
+          "portion": "50 ккал/100 гр.",
+          "description": null,
+          "price": 1900,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "desserts"
+        },
+        {
+          "id": "-",
+          "name": "Клубничный смузи",
+          "portion": null,
+          "description": null,
+          "price": 1200,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "desserts"
+        },
+        {
+          "id": "-",
+          "name": "Фруктовый салат",
+          "portion": null,
+          "description": null,
+          "price": 750,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": true,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": true,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "desserts"
+        },
+        {
+          "id": "-",
+          "name": "Фруктовая тарелка",
+          "portion": null,
+          "description": null,
+          "price": 1600,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "desserts"
+        },
+        {
+          "id": "-",
+          "name": "Хлебная корзина",
+          "portion": null,
+          "description": null,
+          "price": 450,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "desserts"
+        },
+        {
+          "id": "-",
+          "name": "Корзина со сладкой выпечкой",
+          "portion": null,
+          "description": null,
+          "price": 680,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "desserts"
+        },
+        {
+          "id": "-",
+          "name": "Пирожок с грибами, мясом,",
+          "portion": null,
+          "description": null,
+          "price": 300,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": true,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": true,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "desserts"
+        }
+      ],
+      "subcategories": [
+        {
+          "name": "Свежие ягоды:",
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "горячие-блюда",
+      "name": "ГОРЯЧИЕ БЛЮДА",
+      "items": [
+        {
+          "id": "-",
+          "name": "Яйца, приготовленные по Вашему выбору:",
+          "portion": null,
+          "description": null,
+          "price": 750,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": true,
+            "spicy": false,
+            "halal": true
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": true,
+            "spicy": false,
+            "halal": true
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Яйца Бенедикт с ветчиной",
+          "portion": null,
+          "description": null,
+          "price": 880,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": true,
+            "spicy": false,
+            "halal": true
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": true,
+            "spicy": false,
+            "halal": true
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Авокадо тост с яйцом-пашот",
+          "portion": null,
+          "description": null,
+          "price": 780,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Лосось слабосоленый к Вашему тосту",
+          "portion": null,
+          "description": null,
+          "price": 950,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "",
+          "name": "Блины",
+          "portion": null,
+          "description": null,
+          "price": 660,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Сгущенное молоко",
+          "portion": "1/50",
+          "description": "(262 ккал/100 гр.)",
+          "price": 100,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": true
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": true
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Кленовый сироп",
+          "portion": "1/40",
+          "description": "(307 ккал/100 гр.)",
+          "price": 150,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Домашнее варенье",
+          "portion": "1/50",
+          "description": "(302 ккал/100 гр.)",
+          "price": 500,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Панкейки с бананом и шоколадным соусом",
+          "portion": null,
+          "description": null,
+          "price": 790,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Сырники со сметаной и джемом",
+          "portion": null,
+          "description": null,
+          "price": 950,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": true
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": true
+          },
+          "categoryId": "other"
+        }
+      ],
+      "subcategories": [
+        {
+          "name": ": (2 шт.) (155/303/155/303/303 ккал/100 гр.)",
+          "items": []
+        },
+        {
+          "name": "Добавки на выбор:",
+          "items": []
+        },
+        {
+          "name": "Добавки на выбор:",
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "холодные-закуски",
+      "name": "ХОЛОДНЫЕ ЗАКУСКИ",
+      "items": [
+        {
+          "id": "-",
+          "name": "Хумус с питой – гриль",
+          "portion": null,
+          "description": null,
+          "price": 750,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "cold-appetizers"
+        },
+        {
+          "id": "-",
+          "name": "Русские соленья",
+          "portion": null,
+          "description": null,
+          "price": 850,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "cold-appetizers"
+        },
+        {
+          "id": "-",
+          "name": "Ассорти свежих овощей",
+          "portion": null,
+          "description": null,
+          "price": 990,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "cold-appetizers"
+        },
+        {
+          "id": "-",
+          "name": "Ассорти сыров",
+          "portion": null,
+          "description": null,
+          "price": 2900,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": true
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": true
+          },
+          "categoryId": "cold-appetizers"
+        },
+        {
+          "id": "-",
+          "name": "Традиционная сельдь с картофелем",
+          "portion": null,
+          "description": null,
+          "price": 790,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "cold-appetizers"
+        },
+        {
+          "id": "-",
+          "name": "Тартар из тунца",
+          "portion": null,
+          "description": null,
+          "price": 1850,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "cold-appetizers"
+        },
+        {
+          "id": "-",
+          "name": "Тартар из лосося",
+          "portion": null,
+          "description": null,
+          "price": 2200,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "cold-appetizers"
+        },
+        {
+          "id": "-",
+          "name": "Ассорти соленой и копченой рыбы",
+          "portion": null,
+          "description": null,
+          "price": 2400,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "cold-appetizers"
+        },
+        {
+          "id": "-",
+          "name": "Тартар из говядины",
+          "portion": null,
+          "description": null,
+          "price": 1800,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "cold-appetizers"
+        },
+        {
+          "id": "-",
+          "name": "Ассорти мясных деликатесов",
+          "portion": null,
+          "description": null,
+          "price": 2600,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "cold-appetizers"
+        }
+      ],
+      "subcategories": []
+    },
+    {
+      "id": "икра",
+      "name": "ИКРА",
+      "items": [
+        {
+          "id": "-",
+          "name": "Красная икра с блинами, сметаной",
+          "portion": null,
+          "description": null,
+          "price": 3450,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Осетровая икра Файнест с блинами,",
+          "portion": null,
+          "description": null,
+          "price": 9900,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Осетровая икра Империал с блинами,",
+          "portion": null,
+          "description": null,
+          "price": 10350,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        }
+      ],
+      "subcategories": []
+    },
+    {
+      "id": "сэндвичи-и-пицца",
+      "name": "СЭНДВИЧИ И ПИЦЦА",
+      "items": [
+        {
+          "id": "-",
+          "name": "Бургер с котлетой из киноа и овощей",
+          "portion": null,
+          "description": null,
+          "price": 850,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": true,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": true,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Тортилья с овощами гриль и сыром чеддер",
+          "portion": null,
+          "description": null,
+          "price": 900,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": true
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": true
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Сэндвич с лососем",
+          "portion": null,
+          "description": null,
+          "price": 2400,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Клаб сэндвич",
+          "portion": null,
+          "description": null,
+          "price": 1750,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "",
+          "name": "Чизбургер",
+          "portion": null,
+          "description": null,
+          "price": 2500,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Сэндвич со стейком – гриль",
+          "portion": null,
+          "description": null,
+          "price": 2500,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        }
+      ],
+      "subcategories": []
+    },
+    {
+      "id": "пицца",
+      "name": "ПИЦЦА",
+      "items": [
+        {
+          "id": "",
+          "name": "Маргарита",
+          "portion": null,
+          "description": null,
+          "price": 1300,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "4-",
+          "name": "4 сыра",
+          "portion": null,
+          "description": null,
+          "price": 1300,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": true
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": true
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "С бараньими колбасками",
+          "portion": null,
+          "description": null,
+          "price": 1300,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        }
+      ],
+      "subcategories": []
+    },
+    {
+      "id": "салаты",
+      "name": "САЛАТЫ",
+      "items": [
+        {
+          "id": "-",
+          "name": "Салат с кускусом и овощами",
+          "portion": null,
+          "description": null,
+          "price": 950,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": true,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": true,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Средиземноморский салат с Фетой",
+          "portion": null,
+          "description": null,
+          "price": 950,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": true,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": true,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Салат со свеклой,",
+          "portion": null,
+          "description": null,
+          "price": 990,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": true,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": true,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Салат с сыром Буррата,",
+          "portion": null,
+          "description": null,
+          "price": 2200,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": true,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": true
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": true,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": true
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Салат с авокадо и томатом",
+          "portion": null,
+          "description": null,
+          "price": 950,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": true,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": true,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "",
+          "name": "Креветки",
+          "portion": "1/70",
+          "description": "(81 ккал/100 гр.)",
+          "price": 900,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": true,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": true,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "",
+          "name": "Лосось",
+          "portion": "1/80",
+          "description": "(191 ккал/100 гр.)",
+          "price": 990,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": true,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": true,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "",
+          "name": "Курица",
+          "portion": "1/80",
+          "description": "(147 ккал/100 гр.)",
+          "price": 490,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": true,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": true
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": true,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": true
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Классический салат Цезарь",
+          "portion": null,
+          "description": null,
+          "price": 1040,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": true,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": true,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "",
+          "name": "Креветки",
+          "portion": "1/70",
+          "description": "(81 ккал/100 гр.)",
+          "price": 900,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": true,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": true,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "",
+          "name": "Лосось",
+          "portion": "1/80",
+          "description": "(191 ккал/100 гр.)",
+          "price": 990,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": true,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": true,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "",
+          "name": "Курица",
+          "portion": "1/80",
+          "description": "(147 ккал/100 гр.)",
+          "price": 490,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": true,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": true
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": true,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": true
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Салат Оливье с курицей",
+          "portion": null,
+          "description": null,
+          "price": 950,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": true,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": true,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Салат Оливье с говяжьим языком",
+          "portion": null,
+          "description": null,
+          "price": 1200,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": true,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": true,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        }
+      ],
+      "subcategories": [
+        {
+          "name": "Добавки на выбор:",
+          "items": []
+        },
+        {
+          "name": "Добавки на выбор:",
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "супы",
+      "name": "СУПЫ",
+      "items": [
+        {
+          "id": "-",
+          "name": "Тыквенный суп с креветками",
+          "portion": null,
+          "description": null,
+          "price": 1350,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "soups"
+        },
+        {
+          "id": "-",
+          "name": "Грибной крем-суп",
+          "portion": null,
+          "description": null,
+          "price": 1700,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "soups"
+        },
+        {
+          "id": "-",
+          "name": "Куриный суп-лапша",
+          "portion": null,
+          "description": null,
+          "price": 850,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "soups"
+        },
+        {
+          "id": "-",
+          "name": "Суп Гуляш",
+          "portion": null,
+          "description": null,
+          "price": 1200,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "soups"
+        },
+        {
+          "id": "-",
+          "name": "Традиционный украинский борщ",
+          "portion": null,
+          "description": null,
+          "price": 1300,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "soups"
+        }
+      ],
+      "subcategories": []
+    },
+    {
+      "id": "горячие-закуски",
+      "name": "ГОРЯЧИЕ ЗАКУСКИ",
+      "items": [
+        {
+          "id": "-",
+          "name": "Спринг роллы с овощами",
+          "portion": null,
+          "description": null,
+          "price": 1550,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "hot-appetizers"
+        },
+        {
+          "id": "-",
+          "name": "Сырные шарики с острым соусом",
+          "portion": null,
+          "description": null,
+          "price": 650,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": true
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": true
+          },
+          "categoryId": "hot-appetizers"
+        },
+        {
+          "id": "-",
+          "name": "Жареные гёдза с креветками",
+          "portion": null,
+          "description": null,
+          "price": 890,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "hot-appetizers"
+        },
+        {
+          "id": "-",
+          "name": "Креветки Васаби",
+          "portion": null,
+          "description": null,
+          "price": 1600,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": true,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": true,
+            "halal": false
+          },
+          "categoryId": "hot-appetizers"
+        },
+        {
+          "id": "-",
+          "name": "Пикантные куриные крылья",
+          "portion": null,
+          "description": null,
+          "price": 980,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "hot-appetizers"
+        },
+        {
+          "id": "-",
+          "name": "ини-эмпанадас из говядины",
+          "portion": null,
+          "description": null,
+          "price": 1150,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "hot-appetizers"
+        },
+        {
+          "id": "-",
+          "name": "Свиные ребра Су-вид",
+          "portion": null,
+          "description": null,
+          "price": 1450,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "hot-appetizers"
+        }
+      ],
+      "subcategories": []
+    },
+    {
+      "id": "паста",
+      "name": "ПАСТА",
+      "items": [
+        {
+          "id": "-",
+          "name": "Страчателла и томаты",
+          "portion": null,
+          "description": null,
+          "price": 1500,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "4-",
+          "name": "4 сыра",
+          "portion": null,
+          "description": null,
+          "price": 1100,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": true
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": true
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "",
+          "name": "Болоньезе",
+          "portion": null,
+          "description": null,
+          "price": 1800,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "",
+          "name": "Карбонара",
+          "portion": null,
+          "description": null,
+          "price": 1900,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Спагетти Неро с морепродуктами",
+          "portion": null,
+          "description": null,
+          "price": 2660,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Мясная лазанья",
+          "portion": null,
+          "description": null,
+          "price": 1900,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        }
+      ],
+      "subcategories": [
+        {
+          "name": "С соусом на выбор:",
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "основные-блюда",
+      "name": "ОСНОВНЫЕ БЛЮДА",
+      "items": [
+        {
+          "id": "-",
+          "name": "Стейк из палтуса",
+          "portion": null,
+          "description": null,
+          "price": 1700,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "main-dishes"
+        },
+        {
+          "id": "-",
+          "name": "Филе сибаса",
+          "portion": null,
+          "description": null,
+          "price": 2400,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "main-dishes"
+        },
+        {
+          "id": "-",
+          "name": "Стейк из семги",
+          "portion": null,
+          "description": null,
+          "price": 3500,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "main-dishes"
+        },
+        {
+          "id": "-",
+          "name": "Котлета по-Киевски",
+          "portion": null,
+          "description": null,
+          "price": 1700,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "main-dishes"
+        },
+        {
+          "id": "-",
+          "name": "Запеченный цыпленок",
+          "portion": null,
+          "description": null,
+          "price": 1450,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "main-dishes"
+        },
+        {
+          "id": "-",
+          "name": "Шашлычок из курицы с овощным соте",
+          "portion": null,
+          "description": null,
+          "price": 1450,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "main-dishes"
+        },
+        {
+          "id": "-",
+          "name": "Пельмени с говядиной",
+          "portion": null,
+          "description": null,
+          "price": 1260,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "main-dishes"
+        },
+        {
+          "id": "",
+          "name": "Бефстроганов",
+          "portion": null,
+          "description": null,
+          "price": 1900,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "main-dishes"
+        },
+        {
+          "id": "-",
+          "name": "Стейк Нью-Йорк",
+          "portion": null,
+          "description": null,
+          "price": 2880,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "main-dishes"
+        },
+        {
+          "id": "-",
+          "name": "Баранина по-мароккански с кус-кусом",
+          "portion": null,
+          "description": null,
+          "price": 3180,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": true
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": true
+          },
+          "categoryId": "main-dishes"
+        },
+        {
+          "id": "-",
+          "name": "Медальоны из говядины",
+          "portion": null,
+          "description": null,
+          "price": 3600,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "main-dishes"
+        },
+        {
+          "id": "-",
+          "name": "Филе-Миньон из говядины",
+          "portion": null,
+          "description": null,
+          "price": 3600,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "main-dishes"
+        },
+        {
+          "id": "-",
+          "name": "Рибай стейк",
+          "portion": null,
+          "description": null,
+          "price": 3900,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "main-dishes"
+        }
+      ],
+      "subcategories": []
+    },
+    {
+      "id": "гарниры",
+      "name": "ГАРНИРЫ",
+      "items": [
+        {
+          "id": "-",
+          "name": "Рис басмати",
+          "portion": null,
+          "description": null,
+          "price": 480,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": true,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": true,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "",
+          "name": "Картофель,",
+          "portion": null,
+          "description": null,
+          "price": 480,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": true,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": true,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "",
+          "name": "Овощи",
+          "portion": null,
+          "description": null,
+          "price": 870,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": true,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": true,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Овощи вок",
+          "portion": null,
+          "description": null,
+          "price": 870,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": true,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": true,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Спаржа на гриле или на пару",
+          "portion": null,
+          "description": null,
+          "price": 1200,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "",
+          "name": "СОУСЫ",
+          "portion": null,
+          "description": null,
+          "price": 210,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        }
+      ],
+      "subcategories": [
+        {
+          "name": "приготовленный по Вашему желанию:",
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "азиатские-блюда",
+      "name": "АЗИАТСКИЕ БЛЮДА",
+      "items": [
+        {
+          "id": "-",
+          "name": "Теплый салат с говядиной",
+          "portion": null,
+          "description": null,
+          "price": 2500,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Том Ям",
+          "portion": null,
+          "description": null,
+          "price": 1600,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "в азиатском стиле на Ваш выбор:",
+          "portion": null,
+          "description": null,
+          "price": 1400,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "",
+          "name": "Креветки",
+          "portion": "1/70",
+          "description": "(81 ккал/100 гр.)",
+          "price": 900,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "",
+          "name": "Курица",
+          "portion": "1/80",
+          "description": "(147 ккал/100 гр.)",
+          "price": 490,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": true
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": true
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "",
+          "name": "Говядина",
+          "portion": "1/80",
+          "description": "(191 ккал/100 гр.)",
+          "price": 900,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": true
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": true
+          },
+          "categoryId": "other"
+        }
+      ],
+      "subcategories": [
+        {
+          "name": "Добавки на выбор:",
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "детское-меню",
+      "name": "ДЕТСКОЕ МЕНЮ",
+      "items": [
+        {
+          "id": "-",
+          "name": "Салат из свежих огурцов и помидоров",
+          "portion": null,
+          "description": null,
+          "price": 750,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Тост с ветчиной и сыром",
+          "portion": null,
+          "description": null,
+          "price": 460,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": true
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": true
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Кесадилья с цыпленком-гриль,",
+          "portion": null,
+          "description": null,
+          "price": 900,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Суп куриный с фигурной пастой",
+          "portion": null,
+          "description": null,
+          "price": 550,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Овощной суп с фрикадельками из говядины",
+          "portion": null,
+          "description": null,
+          "price": 650,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": true,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": true,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Спагетти или пенне с соусом на Ваш выбор:",
+          "portion": null,
+          "description": null,
+          "price": 650,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "",
+          "name": "Лосось",
+          "portion": "1/80",
+          "description": "(191 ккал/100 гр.)",
+          "price": 990,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "",
+          "name": "Курица",
+          "portion": "1/80",
+          "description": "(147 ккал/100 гр.)",
+          "price": 490,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": true
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": true
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Котлетка из цыпленка",
+          "portion": null,
+          "description": null,
+          "price": 750,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Куриные наггетсы с картофелем фри",
+          "portion": null,
+          "description": null,
+          "price": 800,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Мини-бургер с картофелем-фри",
+          "portion": null,
+          "description": null,
+          "price": 900,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Теплое молоко с домашним печеньем",
+          "portion": null,
+          "description": null,
+          "price": 500,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": true
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": true
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Молочный коктейль",
+          "portion": null,
+          "description": null,
+          "price": 1300,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        }
+      ],
+      "subcategories": [
+        {
+          "name": "Добавки на выбор:",
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "десерты",
+      "name": "ДЕСЕРТЫ",
+      "items": [
+        {
+          "id": "-",
+          "name": "Пирожное Картошка",
+          "portion": null,
+          "description": null,
+          "price": 600,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Классический медовик",
+          "portion": null,
+          "description": null,
+          "price": 750,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Тарт-эклер с лесными орехами",
+          "portion": null,
+          "description": null,
+          "price": 750,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Торт Черная Жемчужина с абрикосом",
+          "portion": null,
+          "description": null,
+          "price": 850,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Чизкейк с двумя соусами",
+          "portion": null,
+          "description": null,
+          "price": 850,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Десерт Лайм",
+          "portion": null,
+          "description": null,
+          "price": 920,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Тирамису Гранде",
+          "portion": null,
+          "description": null,
+          "price": 950,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Малиновый декуаз с фисташками",
+          "portion": null,
+          "description": null,
+          "price": 1200,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Десерт Павлова",
+          "portion": null,
+          "description": null,
+          "price": 1300,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Мед в ассортименте",
+          "portion": "1/50",
+          "description": "(331 ккал/100 гр.)",
+          "price": 180,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Домашнее варенье:",
+          "portion": "1/50",
+          "description": null,
+          "price": 500,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        }
+      ],
+      "subcategories": []
+    },
+    {
+      "id": "мороженое-и-сорбет",
+      "name": "МОРОЖЕНОЕ И СОРБЕТ",
+      "items": [
+        {
+          "id": "1-",
+          "name": "1 шарик",
+          "portion": null,
+          "description": null,
+          "price": 490,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        }
+      ],
+      "subcategories": []
+    },
+    {
+      "id": "аперитив",
+      "name": "АПЕРИТИВ",
+      "items": [
+        {
+          "id": "-",
+          "name": "Мартини Бьянко",
+          "portion": null,
+          "description": null,
+          "price": 550,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        }
+      ],
+      "subcategories": []
+    },
+    {
+      "id": "шампанское",
+      "name": "ШАМПАНСКОЕ",
+      "items": [
+        {
+          "id": "-",
+          "name": "Лансон ле Блэк Резерв Брют",
+          "portion": null,
+          "description": null,
+          "price": 11500,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Лансон ле Розе Брют",
+          "portion": null,
+          "description": null,
+          "price": 14500,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Лансон ле Блэк Резерв Брют",
+          "portion": null,
+          "description": null,
+          "price": 19900,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Лансон ле Розе Брют",
+          "portion": null,
+          "description": null,
+          "price": 24900,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Рюинар Брют",
+          "portion": null,
+          "description": null,
+          "price": 22350,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Рюинар Блан де Блан",
+          "portion": null,
+          "description": null,
+          "price": 28400,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Луи Родерер Коллексьон",
+          "portion": null,
+          "description": null,
+          "price": 25000,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Луи Родерер Кристал",
+          "portion": null,
+          "description": null,
+          "price": 92900,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": true,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": true,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        }
+      ],
+      "subcategories": []
+    },
+    {
+      "id": "игристое-вино",
+      "name": "ИГРИСТОЕ ВИНО",
+      "items": [
+        {
+          "id": "-",
+          "name": "Монтельвини Просекко",
+          "portion": null,
+          "description": null,
+          "price": 4950,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Вальдо Марка Оро Просекко Супериоре",
+          "portion": null,
+          "description": null,
+          "price": 7400,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Мартини Асти",
+          "portion": null,
+          "description": null,
+          "price": 5180,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Др.Л Рислинг Драй",
+          "portion": null,
+          "description": null,
+          "price": 7000,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": true,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": true,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Гранд Кюве Усадьба Дивноморское",
+          "portion": null,
+          "description": null,
+          "price": 8000,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        }
+      ],
+      "subcategories": []
+    },
+    {
+      "id": "белое-вино",
+      "name": "БЕЛОЕ ВИНО",
+      "items": [
+        {
+          "id": "-",
+          "name": "Ле Гран Нуар Совиньон Блан",
+          "portion": null,
+          "description": null,
+          "price": 3400,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Гави дей Гави",
+          "portion": null,
+          "description": null,
+          "price": 10100,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        }
+      ],
+      "subcategories": []
+    },
+    {
+      "id": "красное-вино",
+      "name": "КРАСНОЕ ВИНО",
+      "items": [
+        {
+          "id": "-",
+          "name": "Ле Гран Нуар Каберне Совиньон",
+          "portion": null,
+          "description": null,
+          "price": 3400,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Кьянти Классико",
+          "portion": null,
+          "description": null,
+          "price": 4200,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        }
+      ],
+      "subcategories": []
+    },
+    {
+      "id": "белое-вино",
+      "name": "БЕЛОЕ ВИНО",
+      "items": [
+        {
+          "id": "-",
+          "name": "Гевюрцтраминер Кюве Рене Допфф",
+          "portion": null,
+          "description": null,
+          "price": 9000,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Домен Пасси ле Клу Шабли",
+          "portion": null,
+          "description": null,
+          "price": 10400,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Сансер Ле Барон Блан",
+          "portion": null,
+          "description": null,
+          "price": 17000,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Шабли Гран Крю",
+          "portion": null,
+          "description": null,
+          "price": 42000,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Собайа Совиньон",
+          "portion": null,
+          "description": null,
+          "price": 5800,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Пино Гриджио",
+          "portion": null,
+          "description": null,
+          "price": 7130,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Шардоне Фриули Коллио",
+          "portion": null,
+          "description": null,
+          "price": 9500,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Гави дей Гави",
+          "portion": null,
+          "description": null,
+          "price": 16800,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Рислинг Зенфтенбергер Пири",
+          "portion": null,
+          "description": null,
+          "price": 18500,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": true,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": true,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "",
+          "name": "Рислинг",
+          "portion": null,
+          "description": null,
+          "price": 7500,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": true,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": true,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        }
+      ],
+      "subcategories": []
+    },
+    {
+      "id": "розовое-вино",
+      "name": "РОЗОВОЕ ВИНО",
+      "items": [
+        {
+          "id": "-",
+          "name": "Пфефферер Пинк",
+          "portion": null,
+          "description": null,
+          "price": 9000,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        }
+      ],
+      "subcategories": []
+    },
+    {
+      "id": "красное-вино",
+      "name": "КРАСНОЕ ВИНО",
+      "items": [
+        {
+          "id": "-",
+          "name": "Ле Кюрье Сомелье Мерло",
+          "portion": null,
+          "description": null,
+          "price": 4250,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Шемен де Пап Кот дю Рон Руж",
+          "portion": null,
+          "description": null,
+          "price": 4900,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Каберне Совиньон",
+          "portion": null,
+          "description": null,
+          "price": 6670,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "АОР Шатонеф-дю-Пап Традисьон",
+          "portion": null,
+          "description": null,
+          "price": 20400,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Шато Ля Лагун",
+          "portion": null,
+          "description": null,
+          "price": 36000,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Шато Латур",
+          "portion": null,
+          "description": null,
+          "price": 286000,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "",
+          "name": "Петрюс",
+          "portion": null,
+          "description": null,
+          "price": 1000000,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Кьянти Классико",
+          "portion": null,
+          "description": null,
+          "price": 8500,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Амароне делла Вальполичелла Классико",
+          "portion": null,
+          "description": null,
+          "price": 20300,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "",
+          "name": "Бароло",
+          "portion": null,
+          "description": null,
+          "price": 20500,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "",
+          "name": "Бертинга",
+          "portion": null,
+          "description": null,
+          "price": 32200,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Маркиз де Муррьета Гран Резерва",
+          "portion": null,
+          "description": null,
+          "price": 20000,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "",
+          "name": "Мальбек",
+          "portion": null,
+          "description": null,
+          "price": 12900,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "",
+          "name": "Вечерница",
+          "portion": null,
+          "description": null,
+          "price": 4100,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Западный склон",
+          "portion": null,
+          "description": null,
+          "price": 8000,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "",
+          "name": "Риваж",
+          "portion": null,
+          "description": null,
+          "price": 8800,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        }
+      ],
+      "subcategories": []
+    },
+    {
+      "id": "портвейн",
+      "name": "ПОРТВЕЙН",
+      "items": [
+        {
+          "id": "-",
+          "name": "Мушкатель де Сетубал Аламбре",
+          "portion": null,
+          "description": null,
+          "price": 950,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        }
+      ],
+      "subcategories": []
+    },
+    {
+      "id": "водка",
+      "name": "ВОДКА",
+      "items": [
+        {
+          "id": "-",
+          "name": "Царская Оригинальная",
+          "portion": null,
+          "description": null,
+          "price": 440,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "",
+          "name": "Спельта",
+          "portion": null,
+          "description": null,
+          "price": 700,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Чистые Росы",
+          "portion": null,
+          "description": null,
+          "price": 760,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "",
+          "name": "Белуга",
+          "portion": null,
+          "description": null,
+          "price": 760,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "",
+          "name": "Онегин",
+          "portion": null,
+          "description": null,
+          "price": 760,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Грей Гуз",
+          "portion": null,
+          "description": null,
+          "price": 980,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        }
+      ],
+      "subcategories": []
+    },
+    {
+      "id": "ром",
+      "name": "РОМ",
+      "items": [
+        {
+          "id": "-",
+          "name": "Рон Каладос Уайт",
+          "portion": null,
+          "description": null,
+          "price": 580,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Рон Каладос Дарк",
+          "portion": null,
+          "description": null,
+          "price": 580,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Рон Каладос Спайсд",
+          "portion": null,
+          "description": null,
+          "price": 580,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        }
+      ],
+      "subcategories": []
+    },
+    {
+      "id": "текила",
+      "name": "ТЕКИЛА",
+      "items": [
+        {
+          "id": "-",
+          "name": "Дон Хулио Бланко",
+          "portion": null,
+          "description": null,
+          "price": 1200,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Дон Хулио Репосадо",
+          "portion": null,
+          "description": null,
+          "price": 1200,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Аретте Бланко",
+          "portion": null,
+          "description": null,
+          "price": 1800,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Аретте Репосадо",
+          "portion": null,
+          "description": null,
+          "price": 2100,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Аретте Аньехо",
+          "portion": null,
+          "description": null,
+          "price": 2950,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        }
+      ],
+      "subcategories": []
+    },
+    {
+      "id": "джин",
+      "name": "ДЖИН",
+      "items": [
+        {
+          "id": "",
+          "name": "Бифитер",
+          "portion": null,
+          "description": null,
+          "price": 650,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Бомбей Сапфир",
+          "portion": null,
+          "description": null,
+          "price": 850,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "",
+          "name": "Хендрикс",
+          "portion": null,
+          "description": null,
+          "price": 1550,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        }
+      ],
+      "subcategories": []
+    },
+    {
+      "id": "виски",
+      "name": "ВИСКИ",
+      "items": [
+        {
+          "id": "-12-",
+          "name": "Макаллан Дабл Каск 12 лет",
+          "portion": null,
+          "description": null,
+          "price": 1950,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-12-",
+          "name": "Макаллан Трипл Каск Мачурд 12 лет",
+          "portion": null,
+          "description": null,
+          "price": 1950,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-15-",
+          "name": "Макаллан Дабл Каск 15 лет",
+          "portion": null,
+          "description": null,
+          "price": 3500,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-12-",
+          "name": "Гленфиддих 12 лет",
+          "portion": null,
+          "description": null,
+          "price": 1700,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-18-",
+          "name": "Гленфиддих 18 лет",
+          "portion": null,
+          "description": null,
+          "price": 3950,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Джонни Уокер Блек Лейбл",
+          "portion": null,
+          "description": null,
+          "price": 850,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-12-",
+          "name": "Чивас Ригал 12 лет",
+          "portion": null,
+          "description": null,
+          "price": 1020,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-18-",
+          "name": "Чивас Ригал 18 лет",
+          "portion": null,
+          "description": null,
+          "price": 1960,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-21-",
+          "name": "Чивас Роял Салют 21 год",
+          "portion": null,
+          "description": null,
+          "price": 5100,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "",
+          "name": "Джемесон",
+          "portion": null,
+          "description": null,
+          "price": 610,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        }
+      ],
+      "subcategories": []
+    },
+    {
+      "id": "сша,",
+      "name": "США,",
+      "items": [
+        {
+          "id": "-7",
+          "name": "Джек Дэниелс Олд №7",
+          "portion": null,
+          "description": null,
+          "price": 550,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Мэйкерс Марк",
+          "portion": null,
+          "description": null,
+          "price": 700,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        }
+      ],
+      "subcategories": []
+    },
+    {
+      "id": "коньяк",
+      "name": "КОНЬЯК",
+      "items": [
+        {
+          "id": "",
+          "name": "Курвуазье",
+          "portion": null,
+          "description": null,
+          "price": 990,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "",
+          "name": "Курвуазье",
+          "portion": null,
+          "description": null,
+          "price": 3700,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Хеннесси ВСОП",
+          "portion": null,
+          "description": null,
+          "price": 1080,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Хеннесси ХО",
+          "portion": null,
+          "description": null,
+          "price": 3650,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Эйч бай Хайн ВСОП",
+          "portion": null,
+          "description": null,
+          "price": 1300,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Хайн Сигар Резерв ХО",
+          "portion": null,
+          "description": null,
+          "price": 3200,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        }
+      ],
+      "subcategories": []
+    },
+    {
+      "id": "хо",
+      "name": "ХО",
+      "items": [],
+      "subcategories": []
+    },
+    {
+      "id": "бренди",
+      "name": "БРЕНДИ",
+      "items": [
+        {
+          "id": "-",
+          "name": "Арарат Ахтамар",
+          "portion": null,
+          "description": null,
+          "price": 720,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        }
+      ],
+      "subcategories": []
+    },
+    {
+      "id": "ликеры",
+      "name": "ЛИКЕРЫ",
+      "items": [
+        {
+          "id": "",
+          "name": "Бэйлиз",
+          "portion": null,
+          "description": null,
+          "price": 510,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "",
+          "name": "Егермайстер",
+          "portion": null,
+          "description": null,
+          "price": 510,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        }
+      ],
+      "subcategories": []
+    },
+    {
+      "id": "пиво",
+      "name": "ПИВО",
+      "items": [
+        {
+          "id": "-500-",
+          "name": "Айнгер Лагер Хель 500 мл",
+          "portion": null,
+          "description": null,
+          "price": 800,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-500-",
+          "name": "Айнгер Альтбайриш Дункель 500 мл",
+          "portion": null,
+          "description": null,
+          "price": 800,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Циндао Зеро",
+          "portion": "безалкогольное",
+          "description": "330 мл",
+          "price": 550,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-640-",
+          "name": "Циндао Светлое 640 мл",
+          "portion": null,
+          "description": null,
+          "price": 800,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        }
+      ],
+      "subcategories": []
+    },
+    {
+      "id": "кофе-и-какао",
+      "name": "КОФЕ И КАКАО",
+      "items": [
+        {
+          "id": "-20-",
+          "name": "Ристретто 20 мл",
+          "portion": null,
+          "description": null,
+          "price": 410,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": true,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": true,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-40-",
+          "name": "Эспрессо 40 мл",
+          "portion": null,
+          "description": null,
+          "price": 460,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-80-",
+          "name": "Двойной эспрессо 80 мл",
+          "portion": null,
+          "description": null,
+          "price": 540,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-140-",
+          "name": "Американо 140 мл",
+          "portion": null,
+          "description": null,
+          "price": 540,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-200-",
+          "name": "Капучино 200 мл",
+          "portion": null,
+          "description": null,
+          "price": 580,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-260-",
+          "name": "Флэт Уайт 260 мл",
+          "portion": null,
+          "description": null,
+          "price": 600,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-260-",
+          "name": "Латте 260 мл",
+          "portion": null,
+          "description": null,
+          "price": 600,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-280-",
+          "name": "Рафф 280 мл",
+          "portion": null,
+          "description": null,
+          "price": 600,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "",
+          "name": "Американский",
+          "portion": "кофейник",
+          "description": "400 мл",
+          "price": 770,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-240-",
+          "name": "Ирландский кофе 240 мл",
+          "portion": null,
+          "description": null,
+          "price": 880,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-260-",
+          "name": "Какао 260 мл",
+          "portion": null,
+          "description": null,
+          "price": 580,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-400-",
+          "name": "ЧАЙ 400 мл",
+          "portion": null,
+          "description": null,
+          "price": 910,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        }
+      ],
+      "subcategories": []
+    },
+    {
+      "id": "минеральная-вода",
+      "name": "МИНЕРАЛЬНАЯ ВОДА",
+      "items": [
+        {
+          "id": "-330-",
+          "name": "Легенда Байкала б/г, газ 330 мл",
+          "portion": null,
+          "description": null,
+          "price": 450,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-750-",
+          "name": "Легенда Байкала б/г, газ 750 мл",
+          "portion": null,
+          "description": null,
+          "price": 750,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-500-",
+          "name": "Эдис б/г, газ 500 мл",
+          "portion": null,
+          "description": null,
+          "price": 600,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-950-",
+          "name": "Эдис б/г, газ 950 мл",
+          "portion": null,
+          "description": null,
+          "price": 950,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-330-",
+          "name": "Боржоми 330 мл",
+          "portion": null,
+          "description": null,
+          "price": 750,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-250-",
+          "name": "Аква Панна 250 мл",
+          "portion": null,
+          "description": null,
+          "price": 750,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-750-",
+          "name": "Аква Панна 750 мл",
+          "portion": null,
+          "description": null,
+          "price": 1500,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-250-",
+          "name": "Сан Пеллегрино 250 мл",
+          "portion": null,
+          "description": null,
+          "price": 750,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-750-",
+          "name": "Сан Пеллегрино 750 мл",
+          "portion": null,
+          "description": null,
+          "price": 1500,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        }
+      ],
+      "subcategories": []
+    },
+    {
+      "id": "безалкогольные-напитки",
+      "name": "БЕЗАЛКОГОЛЬНЫЕ НАПИТКИ",
+      "items": [
+        {
+          "id": "-250-",
+          "name": "Добрый 250 мл",
+          "portion": null,
+          "description": null,
+          "price": 450,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-250-",
+          "name": "Добрый без сахара 250 мл",
+          "portion": null,
+          "description": null,
+          "price": 450,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-250-",
+          "name": "Добрый Апельсин 250 мл",
+          "portion": null,
+          "description": null,
+          "price": 450,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-250-",
+          "name": "Добрый Лимон-Лайм 250 мл",
+          "portion": null,
+          "description": null,
+          "price": 450,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-330-",
+          "name": "Кока Кола 330 мл",
+          "portion": null,
+          "description": null,
+          "price": 450,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-330-",
+          "name": "Кока Кола Зеро 330 мл",
+          "portion": null,
+          "description": null,
+          "price": 450,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-330-",
+          "name": "Рич Индиан Тоник 330 мл",
+          "portion": null,
+          "description": null,
+          "price": 450,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-250-",
+          "name": "Энергетический Напиток 250 мл",
+          "portion": null,
+          "description": null,
+          "price": 490,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Апельсин Яблоко",
+          "portion": null,
+          "description": null,
+          "price": 770,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-",
+          "name": "Грейпфрут Морковь",
+          "portion": null,
+          "description": null,
+          "price": 770,
+          "tags": [],
+          "dietary": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": true,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "",
+          "name": "Сельдерей",
+          "portion": null,
+          "description": null,
+          "price": 770,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "",
+          "name": "Ананас",
+          "portion": null,
+          "description": null,
+          "price": 1160,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "",
+          "name": "Гранат",
+          "portion": null,
+          "description": null,
+          "price": 1380,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        },
+        {
+          "id": "-200-",
+          "name": "СОКИ 200 мл",
+          "portion": null,
+          "description": null,
+          "price": 460,
+          "tags": [],
+          "dietary": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "dietaryInfo": {
+            "vegetarian": false,
+            "lactoseFree": false,
+            "glutenFree": false,
+            "spicy": false,
+            "halal": false
+          },
+          "categoryId": "other"
+        }
+      ],
+      "subcategories": []
+    }
+  ]
+}

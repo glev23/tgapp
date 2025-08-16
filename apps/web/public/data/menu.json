@@ -1,0 +1,439 @@
+{
+  "source": "menu.txt",
+  "categories": [
+    {
+      "id": "завтрак",
+      "name": "ЗАВТРАК",
+      "items": [
+        {
+          "id": "-5",
+          "name": "Творог 5%",
+          "portion": "1/100",
+          "description": null,
+          "price": 270,
+          "tags": []
+        },
+        {
+          "id": "-",
+          "name": "Йогурт термостатный",
+          "portion": "1 шт.",
+          "description": null,
+          "price": 350,
+          "tags": []
+        },
+        {
+          "id": "-",
+          "name": "Греческий йогурт с гранолой",
+          "portion": "1/140",
+          "description": null,
+          "price": 420,
+          "tags": []
+        },
+        {
+          "id": "-",
+          "name": "Каша, приготовленная на воде или молоке:",
+          "portion": null,
+          "description": null,
+          "price": 660,
+          "tags": []
+        }
+      ],
+      "subcategories": []
+    },
+    {
+      "id": "(300/15)",
+      "name": "(300/15)",
+      "items": [
+        {
+          "id": "",
+          "name": "Мед",
+          "portion": "1 шт.",
+          "description": null,
+          "price": 180,
+          "tags": []
+        },
+        {
+          "id": "-",
+          "name": "Ассорти орехов",
+          "portion": "1/30",
+          "description": null,
+          "price": 220,
+          "tags": []
+        },
+        {
+          "id": "-",
+          "name": "Ассорти сухофруктов",
+          "portion": "1/30",
+          "description": null,
+          "price": 220,
+          "tags": []
+        },
+        {
+          "id": "-",
+          "name": "Ассорти ягод",
+          "portion": "1/30",
+          "description": null,
+          "price": 480,
+          "tags": []
+        },
+        {
+          "id": "-",
+          "name": "Омлет классический",
+          "portion": "1/2 шт./15",
+          "description": null,
+          "price": 750,
+          "tags": []
+        },
+        {
+          "id": "-",
+          "name": "Омлет белковый",
+          "portion": "1/120/5",
+          "description": null,
+          "price": 750,
+          "tags": []
+        },
+        {
+          "id": "-",
+          "name": "Яичница – глазунья",
+          "portion": "1/2 шт./10",
+          "description": null,
+          "price": 750,
+          "tags": []
+        },
+        {
+          "id": "-",
+          "name": "Фитнес тост с яйцом – пашот",
+          "portion": "1/263/10",
+          "description": null,
+          "price": 850,
+          "tags": []
+        },
+        {
+          "id": "-",
+          "name": "Лосось слабосоленый",
+          "portion": "1/50",
+          "description": null,
+          "price": 950,
+          "tags": []
+        },
+        {
+          "id": "-",
+          "name": "Лосось холодного копчения",
+          "portion": "1/50",
+          "description": null,
+          "price": 950,
+          "tags": []
+        },
+        {
+          "id": "-",
+          "name": "Фитнес тост с яичницей – болтуньей",
+          "portion": "1/255/10/2",
+          "description": null,
+          "price": 850,
+          "tags": []
+        },
+        {
+          "id": "-",
+          "name": "Сырники со сметаной и джемом",
+          "portion": "150/40/15/1шт.",
+          "description": null,
+          "price": 950,
+          "tags": []
+        }
+      ],
+      "subcategories": [
+        {
+          "name": "Добавки к Вашим блюдам:",
+          "items": []
+        },
+        {
+          "name": "Добавки на выбор:",
+          "items": []
+        },
+        {
+          "name": "Добавки на выбор:",
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "салаты",
+      "name": "САЛАТЫ",
+      "items": [
+        {
+          "id": "-",
+          "name": "Салат – боул с овощами и киноа",
+          "portion": "1/210/3",
+          "description": null,
+          "price": 850,
+          "tags": []
+        },
+        {
+          "id": "-",
+          "name": "Салат из зеленых овощей",
+          "portion": "1/200/3",
+          "description": null,
+          "price": 850,
+          "tags": []
+        },
+        {
+          "id": "-",
+          "name": "Азиатский салат с авокадо",
+          "portion": "1/200",
+          "description": null,
+          "price": 950,
+          "tags": []
+        },
+        {
+          "id": "",
+          "name": "Креветки",
+          "portion": "1/70",
+          "description": null,
+          "price": 900,
+          "tags": []
+        },
+        {
+          "id": "-",
+          "name": "Обжаренный лосось",
+          "portion": "1/80",
+          "description": null,
+          "price": 990,
+          "tags": []
+        },
+        {
+          "id": "",
+          "name": "Курица",
+          "portion": "1/80",
+          "description": null,
+          "price": 490,
+          "tags": []
+        },
+        {
+          "id": "-",
+          "name": "и грецким орехом",
+          "portion": "1/300/25",
+          "description": null,
+          "price": 990,
+          "tags": []
+        }
+      ],
+      "subcategories": [
+        {
+          "name": "Добавки к Вашим салатам:",
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "супы",
+      "name": "СУПЫ",
+      "items": [
+        {
+          "id": "-",
+          "name": "Грибной крем-суп",
+          "portion": "1/350/17",
+          "description": null,
+          "price": 1700,
+          "tags": []
+        },
+        {
+          "id": "-",
+          "name": "Крем-суп из тыквы",
+          "portion": null,
+          "description": null,
+          "price": 1350,
+          "tags": []
+        },
+        {
+          "id": "-",
+          "name": "Куриный бульон с яйцом и гренками",
+          "portion": "1/300/40/30/2",
+          "description": null,
+          "price": 750,
+          "tags": []
+        },
+        {
+          "id": "-",
+          "name": "Куриный суп-лапша",
+          "portion": "1/350",
+          "description": null,
+          "price": 850,
+          "tags": []
+        },
+        {
+          "id": "-",
+          "name": "Овощной суп с фрикадельками",
+          "portion": "1/50/300",
+          "description": null,
+          "price": 890,
+          "tags": []
+        }
+      ],
+      "subcategories": []
+    },
+    {
+      "id": "основные-блюда",
+      "name": "ОСНОВНЫЕ БЛЮДА",
+      "items": [
+        {
+          "id": "-",
+          "name": "Лапша по-Тайски с креветками",
+          "portion": "1/420",
+          "description": null,
+          "price": 2300,
+          "tags": []
+        },
+        {
+          "id": "-",
+          "name": "Филе сибаса с брокколи",
+          "portion": "1/1 шт./150/7",
+          "description": null,
+          "price": 2600,
+          "tags": []
+        },
+        {
+          "id": "-",
+          "name": "Стейк лосося с зеленой спаржей",
+          "portion": "1/160/100/1",
+          "description": null,
+          "price": 3900,
+          "tags": []
+        },
+        {
+          "id": "-",
+          "name": "Цыпленок с рисом и бобами Эдамаме",
+          "portion": null,
+          "description": null,
+          "price": 1450,
+          "tags": []
+        }
+      ],
+      "subcategories": []
+    },
+    {
+      "id": "(1/250/150/35/3)",
+      "name": "(1/250/150/35/3)",
+      "items": [
+        {
+          "id": "-",
+          "name": "и куриной грудкой",
+          "portion": "1/280",
+          "description": null,
+          "price": 950,
+          "tags": []
+        },
+        {
+          "id": "-",
+          "name": "Жареный рис с куриной грудкой и яйцом",
+          "portion": "1/300/2",
+          "description": null,
+          "price": 960,
+          "tags": []
+        },
+        {
+          "id": "-",
+          "name": "Стейк Рибай с картофелем Черри",
+          "portion": "1/200/150/2",
+          "description": null,
+          "price": 4100,
+          "tags": []
+        },
+        {
+          "id": "",
+          "name": "СОУСЫ",
+          "portion": "1/50",
+          "description": null,
+          "price": 210,
+          "tags": []
+        }
+      ],
+      "subcategories": []
+    },
+    {
+      "id": "паста",
+      "name": "ПАСТА",
+      "items": [
+        {
+          "id": "-",
+          "name": "Спагетти Неро с соусом на рыбном бульоне",
+          "portion": null,
+          "description": null,
+          "price": 1600,
+          "tags": []
+        },
+        {
+          "id": "-",
+          "name": "Спагетти с морепродуктами",
+          "portion": "1/400",
+          "description": null,
+          "price": 2660,
+          "tags": []
+        },
+        {
+          "id": "-",
+          "name": "Спагетти с соусом Болоньез",
+          "portion": "1/380/30/31",
+          "description": null,
+          "price": 1800,
+          "tags": []
+        }
+      ],
+      "subcategories": []
+    },
+    {
+      "id": "десерты",
+      "name": "ДЕСЕРТЫ",
+      "items": [
+        {
+          "id": "-",
+          "name": "Чиа пудинг с кремом из манго и кешью",
+          "portion": "1/170/15",
+          "description": null,
+          "price": 650,
+          "tags": []
+        },
+        {
+          "id": "-",
+          "name": "карамелизированным яблоком",
+          "portion": "1/90/65/30/20",
+          "description": null,
+          "price": 740,
+          "tags": []
+        },
+        {
+          "id": "-",
+          "name": "Фруктовый салат",
+          "portion": "1/200/25",
+          "description": null,
+          "price": 750,
+          "tags": []
+        },
+        {
+          "id": "-",
+          "name": "Фруктовая тарелка",
+          "portion": "1/200",
+          "description": null,
+          "price": 870,
+          "tags": []
+        },
+        {
+          "id": "-",
+          "name": "Желе из кокоса и манго",
+          "portion": "1/160/10",
+          "description": null,
+          "price": 650,
+          "tags": []
+        },
+        {
+          "id": "-",
+          "name": "Фруктовая бомба в темном шоколаде",
+          "portion": "1/120/10/10",
+          "description": null,
+          "price": 750,
+          "tags": []
+        }
+      ],
+      "subcategories": []
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+МОД: PLAN2 (Эффектный визуал, максимальная выразительность, полное наполнение)
+
+Назначение
+- Новый план реализации Telegram Mini App с акцентом на «вау»-эффекты: динамические градиенты, стеклянные поверхности, неон, частицы, 3D/псевдо‑3D и богатые анимации.
+- Полное наполнение интерфейса данными из `info.txt`, `info_two.txt`, `menu.txt`, `menu_two.txt`.
+- Этот план заменяет ограничения предыдущего: теперь разрешено использовать любые библиотеки и техники, если результат выглядит «невероятно круто».
+
+Правила и принципы
+- Разрешено: любые UI‑киты, CSS/JS‑фреймворки, сложные анимации (Lottie, GSAP, Rive), WebGL/Three.js, шейдерные эффекты, партиклы.
+- Ограничения предыдущего плана («Нельзя: глобальные тяжёлые CSS‑фреймворки, громоздкие UI‑киты, большие inline‑SVG») — НЕ действуют.
+- Приоритет: визуальная выразительность на мобильных в Telegram WebView при сохранении работоспособности (прогрессивное снижение эффектов на слабых устройствах).
+
+Цели
+1) Уникальный, «переливающийся» UI с интенсивными градиентами и динамическим светом.
+2) Гладкие переходы (60fps), богатые микровзаимодействия и глубинные эффекты (blur, bloom, glow, parтиклы).
+3) Полная структура разделов и контента на основе исходных текстов.
+4) Мобильная ориентация (360–430px) и готовность к встраиванию в Telegram (SDK, тема).
+
+Предлагаемый стек (расширенный)
+- Frontend: React + Vite + TypeScript
+- Стили: Tailwind CSS + SCSS‑модули для кастомных эффектов; допускается shadcn/ui (Radix + стили) для ускорения
+- Анимации и эффекты:
+  - Framer Motion (UX‑анимации, переходы)
+  - GSAP (сложные таймлайны, скролл‑сцены)
+  - Motion One (микро‑анимации, Web Animations API)
+  - Lottie (иконки/иллюстрации, сложные анимированные объекты)
+  - Three.js / react‑three‑fiber + postprocessing (герой‑сцена, шейдерные градиенты, glow)
+  - Particles.js/ts‑particles или custom shader particles (фоновые партиклы)
+  - Lenis (smooth‑scroll, если потребуется)
+- UI/иконки: Radix (поведение), shadcn/ui (библиотека компонентов), lucide‑react/phosphor‑icons
+- Данные: локальные JSON (генерация из txt) + при необходимости FastAPI для серверной валидации/верификации `initData`
+- Telegram: `@twa-dev/sdk` (Back/Main кнопки, тема, безопасные действия)
+
+Визуальная концепция
+- Цвет: неоновые/иридесцентные градиенты (conic/linear), золотые/янтарные акценты, глубокие тени, мягкие подсветки.
+- Поверхности: glassmorphism (blur+transparency), noise overlays, soft shadows, specular highlights.
+- Фон: динамические градиентные волны, партиклы, тонкий parallax; на слабых устройствах — статический градиент.
+- Анимации: 
+  - Переходы страниц: slide/fade + depth‑parallax, маскирование
+  - Карточки: hover/press glow, tilt‑эффект, depth‑shadow
+  - Кнопки: неоновые вспышки/наведение, ripple/ink/gel‑эффект
+  - Херой: шейдерный градиент/небольшая WebGL сцена c glow и bloom
+- Навигация: светящийся TabBar с активной «каплей» (layoutId), «магнитные» ховеры
+
+Производительность и деградации
+- Прогрессивное включение эффектов: флаги `highPerf`, `reducedMotion`, device‑class detection.
+- Фоллбеки: 
+  - Three.js и тяжёлые сцены — только для `highPerf`; иначе — Lottie/Canvas или CSS‑градиент.
+  - Партиклы/blur/bloom — снижение density/quality на слабых устройствах.
+- Lazy loading: heavy‑bundles (three/gsap/lottie) динамически при входе на экраны.
+- Ограничение FPS‑дорогих эффектов в WebView; отключение при `prefers-reduced-motion`.
+
+Структура разделов и контента (из txt‑файлов)
+- Главная (Hero + Quick Actions + Highlights)
+  - Герой: динамический градиент/Three.js фон, логотип/икона, слоган
+  - Быстрые действия: Услуги, Рестораны, Меню, Контакты
+  - Highlights: SPA/бассейн, смотровая площадка, флотилия
+- Об отеле (из `info.txt`, `info_two.txt`)
+  - Описание, локация, инфраструктура, коллекция, клубные этажи
+  - Контакты, парковка, безопасность, языки обслуживания
+- Номера (категории, преимущества, оснащение)
+  - Individual, Superior (варианты), Premium, Executive, Suite, Grand Residential, Presidential, Romantic…
+  - Для каждой категории: площадь, размещение, кровати, особенности
+- Fitness & SPA (режимы работы, правила, услуги, прайс/длительность)
+  - Аква‑зона, сауны/хаммам, процедуры и пр.
+- Рестораны и бары (из `info.txt`)
+  - Список заведений: кухня, часы, средний чек
+- Меню (из `menu.txt` и `menu_two.txt`)
+  - Завтраки, салаты, супы, основные блюда, паста, десерты, соусы
+  - Барная карта, вина, алкоголь, кофе/чай, безалкогольные
+  - Детское меню
+- Конференции и мероприятия (залы, схемы, рассадки, тарифы)
+- Флотилия яхт (описание, вместимость, сезонность, контакты)
+
+Модель данных (JSON‑схемы, кратко)
+- hotel.json: name, description, location, contacts, amenities, safety, languages, media
+- rooms.json: categories[{ id, name, size, occupancy, beds, features[], description, media[] }]
+- spa.json: schedule, rules[], services[{ id, name, type, duration, price, notes }]
+- restaurants.json: list[{ id, name, cuisine, avgBill, hours, description, contacts }]
+- menu.json: categories[{ id, name, items[{ id, name, desc?, portion?, price, tags[] }] }]
+- events.json: halls[{ id, name, size, capacity, seating, price, equipment }]
+- fleet.json: vessels[{ id, name, capacity, decks, season, features, contacts }]
+
+Импорт/нормализация данных
+- Парсинг txt → JSON: скрипт (Node или Python)
+  - Разделы, позиции, цены, размерности/порции/калораж — распознавание шаблонов
+  - Очистка служебных символов, унификация тегов (без глютена, вегетарианское и т.п.)
+- Раскладка JSON: `apps/web/public/data/*.json`
+- Валидация: простая схема (zod) на фронте, опционально pydantic на бэке
+
+Информационная архитектура и навигация
+- Нижняя навигация (TabBar): Главная, Услуги (SPA/Fitness), Рестораны, Меню, Профиль
+- Внутренние маршруты: Об отеле, Номера, Конференции, Флотилия, Контакты
+- Поиск и фильтры: по меню (категории, тэги), по ресторанам (кухня/часы), по услугам
+
+Компонентная система (с учётом эффектов)
+- Base FX Layer: 
+  - GradientBackground (CSS/Canvas/WebGL), ParticlesLayer, NoiseOverlay
+  - GlassPanel (backdrop‑filter, тени, свечения), GlowHalo
+- Примитивы UI: Button (neon), Card (glass), Tabs, Modal (glass+blur), Chip/Tag, Input/Search
+- Доменные: RoomCard, MenuItemCard (цена/порция/теги), RestaurantCard, HallCard
+- Навигация: TabBar (liquid underline), AppHeader (blurred), BackButton (TWA)
+- Скелетоны/плейсхолдеры: shimmering blocks, gradient loaders, Lottie заглушки
+
+Анимации (детально)
+- Переходы страниц: shared layout + spring + masked gradient reveal
+- Херой: 
+  - Вариант A (highPerf): Three.js c bloom/postprocessing (тонко)
+  - Вариант B (mid): Canvas/Lottie градиентная анимация
+  - Вариант C (low): CSS conic/linear animated gradient
+- Интеракции: 
+  - Hover/press: glow‑ring + subtle tilt (vanilla/Framer)
+  - Filter open/close: scale+blur content, staggered chips
+  - Pull‑to‑refresh: иконка со spring
+
+Адаптация к Telegram
+- TWA SDK: themeParams → CSS vars; BackButton/MainButton; haptics
+- Safe areas: `env(safe-area-inset-*)`; keyboard handling
+- Verify initData (если появится авторизация/заказы) — бэк FastAPI
+
+Производственный контроль
+- Performance budget (целевые):
+  - FCP < 2.5s, TTI < 4s на средних устройствах
+  - Бандл: base < 400KB gzip; heavy эффекты — динамически
+- Lighthouse/Web Vitals замеры; профилирование анимаций
+- Тесты в Telegram WebView (iOS/Android), деградация эффектов
+
+План работ (этапы)
+- Этап 0: Подготовка
+  - Утверждение визуальной концепции (набор градиентов/палитр)
+  - Сбор Lottie/иконок/текстур; выбор эффекта для Hero (Three.js vs CSS/Lottie)
+- Этап 1: Data
+  - Скрипт парсинга txt → JSON; первичная валидация; загрузка в `/public/data`
+- Этап 2: FX‑Foundation
+  - Base FX Layer (GradientBackground, Particles, Noise), GlassPanels, Glow
+  - Tailwind/SCSS токены под палитру неона/золота
+- Этап 3: Навигация и каркас
+  - TabBar, Header, маршруты; скелетоны, лоадеры
+- Этап 4: Контентные страницы
+  - Home (Hero FX), About, Rooms, Restaurants, Menu, SPA, Events, Fleet
+  - Карточки и списки + фильтры/поиск
+- Этап 5: Анимации/Полировка
+  - Переходы, микровзаимодействия, тактильные эффекты (если доступны)
+- Этап 6: Оптимизация и QA
+  - Lazy‑loading heavy libs, `reducedMotion`, device‑based degradation
+  - Тесты на реальных устройствах в Telegram
+
+Критерии готовности
+- Визуал: яркие динамические градиенты/свечения присутствуют на ключевых экранах
+- Весь контент из txt преобразован в JSON и отображается в соответствующих разделах
+- Навигация интуитивна, анимации плавные (без «рваности»)
+- Производительность в пределах бюджета на средних устройствах; деградации работают
+- TWA интеграция: тема/кнопки/хаптик/безопасность (при надобности)
+
+Риски и смягчение
+- Тяжёлые эффекты в WebView → прогрессивные флаги, fallbacks
+- Размер бандла → динамические импорты, tree‑shaking, код‑сплиттинг
+- Неполные/неструктурные данные в txt → гибкий парсер, ручная коррекция категорий
+
+Примечание
+- Этот план допускает использование «тяжёлых» инструментов ради выразительности. Приоритет — визуальный эффект, при обязательном соблюдении работоспособности на мобильных за счёт продуманных деградаций. 

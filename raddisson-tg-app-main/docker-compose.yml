@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  raddisson-app:
+    build: .
+    container_name: raddisson-tg-app
+    env_file:
+      - .env
+    expose:
+      - "3229"
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./logs:/var/log/nginx
+    networks:
+      - nginx-network
+
+networks:
+  nginx-network:
+    external: true
