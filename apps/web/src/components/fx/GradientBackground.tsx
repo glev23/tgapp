@@ -13,14 +13,22 @@ export function GradientBackground({
   className = '' 
 }: GradientBackgroundProps) {
   const [devicePerf, setDevicePerf] = useState<'high' | 'mid' | 'low'>('mid')
+  const [isMobile, setIsMobile] = useState(false)
 
   useEffect(() => {
     // Simple device performance detection
     const canvas = document.createElement('canvas')
     const gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl')
     const memoryInfo = (navigator as any).deviceMemory || 4
+    const userAgent = navigator.userAgent.toLowerCase()
+    const mobile = /android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(userAgent)
     
-    if (gl && memoryInfo > 6) {
+    setIsMobile(mobile)
+    
+    if (mobile) {
+      // На мобильных всегда низкая производительность
+      setDevicePerf('low')
+    } else if (gl && memoryInfo > 6) {
       setDevicePerf('high')
     } else if (memoryInfo < 3) {
       setDevicePerf('low')
@@ -44,7 +52,10 @@ export function GradientBackground({
     }
   }
 
-  if (variant === 'hero' && devicePerf === 'high') {
+  // На мобильных отключаем сложные анимации
+  const shouldAnimate = animated && !isMobile
+
+  if (variant === 'hero' && devicePerf === 'high' && !isMobile) {
     // TODO: Three.js implementation for high-performance devices
     return (
       <div className={`fixed inset-0 -z-10 ${className}`}>
@@ -52,7 +63,7 @@ export function GradientBackground({
         <motion.div 
           className={`absolute inset-0 ${getGradientClass()}`}
           style={{ backgroundSize: '200% 200%' }}
-          animate={animated ? {
+          animate={shouldAnimate ? {
             backgroundPosition: ['0% 0%', '100% 100%', '0% 0%']
           } : {}}
           transition={{
@@ -71,20 +82,22 @@ export function GradientBackground({
       <motion.div 
         className={`absolute inset-0 ${getGradientClass()}`}
         style={variant === 'hero' ? { backgroundSize: '200% 200%' } : {}}
-        animate={animated && variant === 'hero' ? {
+        animate={shouldAnimate && variant === 'hero' ? {
           backgroundPosition: ['0% 50%', '100% 50%', '0% 50%']
         } : {}}
         transition={{
-          duration: 8,
+          duration: isMobile ? 12 : 8, // Медленнее на мобильных
           repeat: Infinity,
           ease: 'easeInOut'
         }}
       />
-      {/* Noise overlay */}
-      <div className="absolute inset-0 opacity-5 bg-noise" style={{
-        backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E")`,
-        backgroundSize: '256px 256px'
-      }} />
+      {/* Noise overlay - только на десктопе */}
+      {!isMobile && (
+        <div className="absolute inset-0 opacity-5 bg-noise" style={{
+          backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E")`,
+          backgroundSize: '256px 256px'
+        }} />
+      )}
     </div>
   )
 }

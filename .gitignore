@@ -33,4 +33,7 @@ database/
 
 # Temporary files
 *.tmp
-*.temp 
+*.temp
+
+# Deploy directories
+deploy-gh-pages/ 
