@@ -10,6 +10,8 @@ export interface DeviceInfo {
   hasTouch: boolean
   memory: number
   cores: number
+  gpu: string
+  userAgent: string
 }
 
 export function useDevicePerformance(): DeviceInfo {
@@ -20,7 +22,9 @@ export function useDevicePerformance(): DeviceInfo {
     isDesktop: false,
     hasTouch: false,
     memory: 4,
-    cores: 4
+    cores: 4,
+    gpu: 'unknown',
+    userAgent: ''
   })
 
   useEffect(() => {
@@ -37,16 +41,49 @@ export function useDevicePerformance(): DeviceInfo {
       const memory = (navigator as any).deviceMemory || 4
       const cores = (navigator as any).hardwareConcurrency || 4
       
-      // Определяем производительность
+      // Определяем GPU
+      let gpu = 'unknown'
+      try {
+        const canvas = document.createElement('canvas')
+        const gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl')
+        if (gl) {
+          const debugInfo = gl.getExtension('WEBGL_debug_renderer_info')
+          if (debugInfo) {
+            gpu = gl.getParameter(debugInfo.UNMASKED_RENDERER_WEBGL) || 'unknown'
+          }
+        }
+      } catch (e) {
+        gpu = 'unknown'
+      }
+      
+      // Умное определение производительности для мобильных
       let performance: DevicePerformance = 'mid'
       
       if (isMobile || isTablet) {
-        // Мобильные устройства всегда считаем низкопроизводительными
-        performance = 'low'
-      } else if (memory > 6 && cores > 6) {
-        performance = 'high'
-      } else if (memory < 3 || cores < 4) {
-        performance = 'low'
+        // Для мобильных устройств - более точная оценка
+        if (memory >= 8 && cores >= 8) {
+          performance = 'high' // Мощные телефоны (iPhone 14 Pro, Samsung S23 Ultra)
+        } else if (memory >= 6 && cores >= 6) {
+          performance = 'mid'  // Средние телефоны (iPhone 13, Samsung A53)
+        } else {
+          performance = 'low'  // Бюджетные телефоны (старые модели)
+        }
+        
+        // Дополнительная проверка по GPU
+        if (gpu.includes('Adreno 7') || gpu.includes('Mali-G7') || gpu.includes('Apple A16')) {
+          performance = 'high'
+        } else if (gpu.includes('Adreno 6') || gpu.includes('Mali-G6') || gpu.includes('Apple A14')) {
+          performance = 'mid'
+        } else if (gpu.includes('Adreno 5') || gpu.includes('Mali-G5') || gpu.includes('Apple A12')) {
+          performance = 'low'
+        }
+      } else {
+        // Для десктопов - старая логика
+        if (memory > 6 && cores > 6) {
+          performance = 'high'
+        } else if (memory < 3 || cores < 4) {
+          performance = 'low'
+        }
       }
       
       setDeviceInfo({
@@ -56,7 +93,9 @@ export function useDevicePerformance(): DeviceInfo {
         isDesktop,
         hasTouch,
         memory,
-        cores
+        cores,
+        gpu,
+        userAgent: navigator.userAgent
       })
     }
 

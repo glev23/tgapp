@@ -45,8 +45,14 @@ export function ParticlesLayer({
     setIsMobile(mobile)
     
     if (mobile) {
-      // На мобильных всегда низкая производительность
-      setDevicePerf('low')
+      // На мобильных определяем производительность более точно
+      if (memoryInfo >= 8) {
+        setDevicePerf('high') // Мощные телефоны
+      } else if (memoryInfo >= 6) {
+        setDevicePerf('mid')  // Средние телефоны
+      } else {
+        setDevicePerf('low')  // Бюджетные телефоны
+      }
     } else if (memoryInfo > 6) {
       setDevicePerf('high')
     } else if (memoryInfo < 3) {
@@ -58,8 +64,8 @@ export function ParticlesLayer({
     const canvas = canvasRef.current
     if (!canvas) return
 
-    // Отключаем частицы на мобильных для экономии ресурсов
-    if (isMobile) {
+    // Отключаем частицы только на слабых мобильных
+    if (isMobile && devicePerf === 'low') {
       return
     }
 
@@ -79,10 +85,10 @@ export function ParticlesLayer({
         particlesRef.current.push({
           x: Math.random() * canvas.width,
           y: Math.random() * canvas.height,
-          vx: (Math.random() - 0.5) * 0.3, // Уменьшена скорость
-          vy: (Math.random() - 0.5) * 0.3, // Уменьшена скорость
-          size: Math.random() * 3 + 1,      // Уменьшен размер
-          opacity: Math.random() * 0.4 + 0.1, // Уменьшена прозрачность
+          vx: (Math.random() - 0.5) * (isMobile ? 0.2 : 0.3), // Медленнее на мобильных
+          vy: (Math.random() - 0.5) * (isMobile ? 0.2 : 0.3), // Медленнее на мобильных
+          size: Math.random() * (isMobile ? 2 : 3) + 1,        // Меньше на мобильных
+          opacity: Math.random() * (isMobile ? 0.3 : 0.4) + 0.1, // Меньше прозрачности на мобильных
           color: colors[Math.floor(Math.random() * colors.length)]
         })
       }
@@ -99,14 +105,14 @@ export function ParticlesLayer({
         if (particle.y < 0) particle.y = canvas.height
         if (particle.y > canvas.height) particle.y = 0
 
-        // Interactive mouse effect - только на десктопе
-        if (interactive && !isMobile) {
+        // Interactive mouse effect - только на десктопе и мощных мобильных
+        if (interactive && (!isMobile || devicePerf === 'high')) {
           const dx = mouseRef.current.x - particle.x
           const dy = mouseRef.current.y - particle.y
           const distance = Math.sqrt(dx * dx + dy * dy)
           
           if (distance < 100) {
-            const force = (100 - distance) / 100 * 0.005 // Уменьшена сила
+            const force = (100 - distance) / 100 * (isMobile ? 0.003 : 0.005) // Меньше силы на мобильных
             particle.vx -= dx * force
             particle.vy -= dy * force
           }
@@ -139,9 +145,16 @@ export function ParticlesLayer({
     }
 
     const handleMouseMove = (e: MouseEvent) => {
-      if (!isMobile) {
+      if (!isMobile || devicePerf === 'high') {
         mouseRef.current.x = e.clientX
         mouseRef.current.y = e.clientY
+      }
+    }
+
+    const handleTouchMove = (e: TouchEvent) => {
+      if (isMobile && devicePerf === 'high' && e.touches[0]) {
+        mouseRef.current.x = e.touches[0].clientX
+        mouseRef.current.y = e.touches[0].clientY
       }
     }
 
@@ -150,8 +163,11 @@ export function ParticlesLayer({
     animate()
 
     window.addEventListener('resize', resizeCanvas)
-    if (interactive && !isMobile) {
+    if (interactive && (!isMobile || devicePerf === 'high')) {
       window.addEventListener('mousemove', handleMouseMove)
+      if (isMobile) {
+        window.addEventListener('touchmove', handleTouchMove)
+      }
     }
 
     return () => {
@@ -159,14 +175,17 @@ export function ParticlesLayer({
         cancelAnimationFrame(animationRef.current)
       }
       window.removeEventListener('resize', resizeCanvas)
-      if (interactive && !isMobile) {
+      if (interactive && (!isMobile || devicePerf === 'high')) {
         window.removeEventListener('mousemove', handleMouseMove)
+        if (isMobile) {
+          window.removeEventListener('touchmove', handleTouchMove)
+        }
       }
     }
   }, [density, interactive, colors, devicePerf, isMobile])
 
-  // Не рендерим canvas на мобильных
-  if (isMobile) {
+  // Не рендерим canvas на слабых мобильных
+  if (isMobile && devicePerf === 'low') {
     return null
   }
 
@@ -176,7 +195,7 @@ export function ParticlesLayer({
       className={`fixed inset-0 pointer-events-none -z-10 ${className}`}
       style={{ 
         mixBlendMode: 'screen',
-        opacity: devicePerf === 'low' ? 0.2 : 0.4 // Уменьшена прозрачность
+        opacity: devicePerf === 'low' ? 0.2 : (isMobile ? 0.3 : 0.4) // Адаптивная прозрачность
       }}
     />
   )
