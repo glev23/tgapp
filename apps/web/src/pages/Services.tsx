@@ -295,7 +295,7 @@ export function Services() {
               <div className="grid grid-cols-1 gap-4">
                 <div className="flex items-center justify-center space-x-2">
                   <Phone size={20} className="text-neon-cyan" />
-                  <span className="text-text-secondary">+7 (495) 221-55-77</span>
+                  <span className="text-text-secondary">+7 495 221 5580</span>
                 </div>
                 
                 <div className="flex items-center justify-center space-x-2">

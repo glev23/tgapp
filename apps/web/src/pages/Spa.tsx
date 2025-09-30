@@ -294,7 +294,7 @@ export function Spa() {
               </h3>
               <div className="flex items-center justify-center space-x-2">
                 <Users size={20} className="text-neon-magenta" />
-                <span className="text-text-secondary">+7 (495) 221-55-55 доб. 3</span>
+                <span className="text-text-secondary">+7 495 221 5580</span>
               </div>
               <p className="text-sm text-text-muted">
                 SPA центр работает ежедневно с 07:00 до 23:00

@@ -302,7 +302,7 @@ export function SpaServiceDetail() {
               </h3>
               <div className="flex items-center justify-center space-x-2">
                 <Phone size={20} className="text-neon-magenta" />
-                <span className="text-text-secondary">+7 (495) 221-55-55 доб. 3</span>
+                <span className="text-text-secondary">+7 495 221 5580</span>
               </div>
               <div className="flex items-center justify-center space-x-2">
                 <MapPin size={20} className="text-neon-cyan" />
@@ -548,7 +548,7 @@ export function SpaServiceDetail() {
                     <div className="flex items-center justify-center space-x-2 text-neon-magenta">
                       <Phone size={16} />
                       <span className="text-sm font-medium">
-                        +7 (495) 221-55-55 доб. 3
+                        +7 495 221 5580
                       </span>
                     </div>
                   </motion.div>
